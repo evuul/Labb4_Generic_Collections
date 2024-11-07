@@ -1,0 +1,14 @@
+/Users/alexanderek/RiderProjects/Labb4_Generic_Collections/Labb4_Generic_Collections/bin/Debug/net8.0/Labb4_Generic_Collections
+/Users/alexanderek/RiderProjects/Labb4_Generic_Collections/Labb4_Generic_Collections/bin/Debug/net8.0/Labb4_Generic_Collections.deps.json
+/Users/alexanderek/RiderProjects/Labb4_Generic_Collections/Labb4_Generic_Collections/bin/Debug/net8.0/Labb4_Generic_Collections.runtimeconfig.json
+/Users/alexanderek/RiderProjects/Labb4_Generic_Collections/Labb4_Generic_Collections/bin/Debug/net8.0/Labb4_Generic_Collections.dll
+/Users/alexanderek/RiderProjects/Labb4_Generic_Collections/Labb4_Generic_Collections/bin/Debug/net8.0/Labb4_Generic_Collections.pdb
+/Users/alexanderek/RiderProjects/Labb4_Generic_Collections/Labb4_Generic_Collections/obj/Debug/net8.0/Labb4_Generic_Collections.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexanderek/RiderProjects/Labb4_Generic_Collections/Labb4_Generic_Collections/obj/Debug/net8.0/Labb4_Generic_Collections.AssemblyInfoInputs.cache
+/Users/alexanderek/RiderProjects/Labb4_Generic_Collections/Labb4_Generic_Collections/obj/Debug/net8.0/Labb4_Generic_Collections.AssemblyInfo.cs
+/Users/alexanderek/RiderProjects/Labb4_Generic_Collections/Labb4_Generic_Collections/obj/Debug/net8.0/Labb4_Generic_Collections.csproj.CoreCompileInputs.cache
+/Users/alexanderek/RiderProjects/Labb4_Generic_Collections/Labb4_Generic_Collections/obj/Debug/net8.0/Labb4_Generic_Collections.dll
+/Users/alexanderek/RiderProjects/Labb4_Generic_Collections/Labb4_Generic_Collections/obj/Debug/net8.0/refint/Labb4_Generic_Collections.dll
+/Users/alexanderek/RiderProjects/Labb4_Generic_Collections/Labb4_Generic_Collections/obj/Debug/net8.0/Labb4_Generic_Collections.pdb
+/Users/alexanderek/RiderProjects/Labb4_Generic_Collections/Labb4_Generic_Collections/obj/Debug/net8.0/Labb4_Generic_Collections.genruntimeconfig.cache
+/Users/alexanderek/RiderProjects/Labb4_Generic_Collections/Labb4_Generic_Collections/obj/Debug/net8.0/ref/Labb4_Generic_Collections.dll
