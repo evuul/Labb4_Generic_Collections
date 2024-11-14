@@ -12,18 +12,11 @@ public class Restaurant
         _orders = new Queue<Order>();
     }
 
-    // Metod för att lägga till en maträtt till menyn om den inte redan finns
+    // Metod för att lägga till en maträtt till menyn
     public void AddToMenu(MenuItem menuItem)
     {
-        if (!MenuItemExists(menuItem))
-        {
-            _menu.Add(menuItem);
-            PrintMessage($"Lagt till {menuItem} till menyn.");
-        }
-        else
-        {
-            PrintMessage($"{menuItem} finns redan i menyn.");
-        }
+        _menu.Add(menuItem);
+        PrintMessage($"Lagt till {menuItem} till menyn.");
     }
     
     // Metod för att visa alla maträtter i menyn
@@ -56,11 +49,11 @@ public class Restaurant
         if (_orders.Count > 0)
         {
             var order = _orders.Dequeue();
-            PrintMessage($"Beställning {order} är klar.");
+            PrintMessage($"Beställning {order} är färdig!");
         }
         else
         {
-            PrintMessage("Det finns inga beställningar att hantera.");
+            PrintMessage("Det finns inga beställningar att hantera just nu.");
         }
     }
 
@@ -94,12 +87,6 @@ public class Restaurant
         {
             PrintMessage("Det finns inga beställningar att visa.");
         }
-    }
-    
-    // Privat metod för att kontrollera om en maträtt redan finns i menyn
-    private bool MenuItemExists(MenuItem menuItem)
-    {
-        return _menu.Contains(menuItem);
     }
 
     // Privat metod för att skriva ut meddelanden

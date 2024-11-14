@@ -12,3 +12,4 @@
 /Users/alexanderek/RiderProjects/Labb4_Generic_Collections/Labb4_Generic_Collections/obj/Debug/net8.0/Labb4_Generic_Collections.pdb
 /Users/alexanderek/RiderProjects/Labb4_Generic_Collections/Labb4_Generic_Collections/obj/Debug/net8.0/Labb4_Generic_Collections.genruntimeconfig.cache
 /Users/alexanderek/RiderProjects/Labb4_Generic_Collections/Labb4_Generic_Collections/obj/Debug/net8.0/ref/Labb4_Generic_Collections.dll
+/Users/alexanderek/RiderProjects/Labb4_Generic_Collections/Labb4_Generic_Collections/obj/Debug/net8.0/Labb4_Generic_Collections.sourcelink.json
