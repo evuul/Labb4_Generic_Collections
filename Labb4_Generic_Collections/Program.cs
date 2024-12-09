@@ -27,9 +27,9 @@ class Program
         restaurant.AddToMenu(new MenuItem(7, "Hawaii", 99));
         restaurant.AddToMenu(new MenuItem(8, "Margherita", 89));
 
-        Console.WriteLine("--------------");
+        restaurant.PrintSeparator();
         restaurant.ShowMenu();
-        Console.WriteLine("--------------");
+        restaurant.PrintSeparator();
 
         // skapar mina beställningar
         var order1 = new Order(new List<MenuItem>(), 1);
@@ -37,69 +37,63 @@ class Program
         order1.AddItem(Pasta);
         order1.AddItem(Sallad);
         restaurant.CreateOrder(order1);
-        Console.WriteLine("--------------");
-
+        restaurant.PrintSeparator();
         
         var order2 = new Order(new List<MenuItem>(), 2);
         order2.AddItem(Kebab);
         order2.AddItem(KebabPizza);
         order2.AddItem(Vesuvio);
         restaurant.CreateOrder(order2);
-        Console.WriteLine("--------------");
-
+        restaurant.PrintSeparator();
         
         var order3 = new Order(new List<MenuItem>(), 3);
         order3.AddItem(Hawaii);
         order3.AddItem(Margherita);
         restaurant.CreateOrder(order3);
-        Console.WriteLine("--------------");
-
+        restaurant.PrintSeparator();
         
         // Visar alla aktuella ordrar
         restaurant.ShowOrders();
-        Console.WriteLine("--------------");
-
+        restaurant.PrintSeparator();
         
         // visa nästa order
         restaurant.ShowNextOrder();
-        Console.WriteLine("--------------");
-
+        restaurant.PrintSeparator();
         
         // lägg till en ny order
         var order4 = new Order(new List<MenuItem>(), 4);
         order4.AddItem(Pizza);
         order4.AddItem(Kebab);
         restaurant.CreateOrder(order4);
-        Console.WriteLine("--------------");
-
+        restaurant.PrintSeparator();
         
         // visa ordrar i kön
         restaurant.ShowOrders();
-        Console.WriteLine("--------------");
+        restaurant.PrintSeparator();
         
         // hantera två orders
         restaurant.HandleOrder();
-        Console.WriteLine("--------------");
+        restaurant.PrintSeparator();
         
         restaurant.HandleOrder();
-        Console.WriteLine("--------------");
+        restaurant.PrintSeparator();
         
         restaurant.ShowOrders();
-        Console.WriteLine("--------------");
+        restaurant.PrintSeparator();
         
         restaurant.ShowNextOrder();
-        Console.WriteLine("--------------");
+        restaurant.PrintSeparator();
         
         restaurant.HandleOrder();
-        Console.WriteLine("--------------");
+        restaurant.PrintSeparator();
         
         restaurant.ShowOrders();
-        Console.WriteLine("--------------");
+        restaurant.PrintSeparator();
 
         restaurant.HandleOrder();
-        Console.WriteLine("--------------");
+        restaurant.PrintSeparator();
         
         restaurant.ShowOrders();
-        Console.WriteLine("--------------");
+        restaurant.PrintSeparator();
     }
 }

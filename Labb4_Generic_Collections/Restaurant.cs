@@ -6,7 +6,7 @@ public class Restaurant
     private  List<MenuItem> _menu;
     private  Queue<Order> _orders;
 
-    public Restaurant()
+    public Restaurant()  
     {
         _menu = new List<MenuItem>();
         _orders = new Queue<Order>();
@@ -31,7 +31,7 @@ public class Restaurant
         {
             foreach (var item in _menu)
             {
-                Console.WriteLine(item); 
+                PrintMessage($"{item}"); 
             }
         }
     }
@@ -40,7 +40,7 @@ public class Restaurant
     public void CreateOrder(Order order)
     {
         _orders.Enqueue(order);
-        PrintMessage($"Beställning {order} har lagts till i kön.");
+        PrintMessage($"Beställning {order.OrderId} har lagts till i kön.");
     }
 
     // Metod för att hantera och ta bort den första beställningen i kön
@@ -69,12 +69,11 @@ public class Restaurant
         {
             foreach (var order in _orders)
             {
-                Console.WriteLine(order);
-                Console.WriteLine("--------------");
+                PrintMessage($"{order}");
+                PrintMessage(" ");
             }
         }
     }
-
     // Metod som visar nästa beställning i kön
     public void ShowNextOrder()
     {
@@ -93,5 +92,11 @@ public class Restaurant
     private void PrintMessage(string message)
     {
         Console.WriteLine(message);
+    }
+    
+    // metod för att skapa __ som skiljer mellan olika delar av programmet
+    public void PrintSeparator()
+    {
+        Console.WriteLine("--------------");
     }
 }

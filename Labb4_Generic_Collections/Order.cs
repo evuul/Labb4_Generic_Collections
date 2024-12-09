@@ -7,6 +7,8 @@ public class Order
     private int _orderId;
     private List<MenuItem> _orderItems;
     private int _tableNumber;
+    
+    public int OrderId => _orderId; // Endast läsbar så vi inte ändrar värdet
 
     public Order(List<MenuItem> orderItems, int tableNumber)
     {
@@ -43,7 +45,6 @@ public class Order
         {
             orderDetails += $"- 1st {item.Name}, Pris: {item.Price:C}\n";
         }
-
         orderDetails += $"Totalt pris: {CalculateTotalPrice():C}";
         return orderDetails;
     }
